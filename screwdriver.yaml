@@ -1,0 +1,6 @@
+jobs:
+  main:
+    requires: [~commit]
+    image: node:18
+    steps:
+      - hello: echo "victim placeholder"
