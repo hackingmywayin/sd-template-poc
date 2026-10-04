@@ -1,5 +1,6 @@
 jobs:
   main:
     requires: [~commit]
-    template: widget
-    secrets: [PROD_SECRET]
+    image: node:18
+    steps:
+      - hello: echo "victim placeholder"
